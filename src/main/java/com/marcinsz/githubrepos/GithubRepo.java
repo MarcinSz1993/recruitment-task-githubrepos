@@ -1,4 +1,4 @@
 package com.marcinsz.githubrepos;
 
-public record GithubRepo() {
+    record GithubRepo(String name, Owner owner,boolean fork) {
 }

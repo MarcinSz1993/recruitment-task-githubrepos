@@ -1,4 +1,4 @@
 package com.marcinsz.githubrepos;
 
-public record GithubBranchResponse() {
+ record GithubBranchResponse(String name, String lastCommitSha) {
 }

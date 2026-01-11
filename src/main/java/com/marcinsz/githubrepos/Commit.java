@@ -1,4 +1,4 @@
 package com.marcinsz.githubrepos;
 
-public record Commit() {
+    record Commit(String sha) {
 }

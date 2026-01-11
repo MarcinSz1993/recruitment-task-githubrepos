@@ -1,4 +1,4 @@
 package com.marcinsz.githubrepos;
 
-public record Owner() {
+    record Owner(String login) {
 }

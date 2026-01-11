@@ -1,4 +1,4 @@
 package com.marcinsz.githubrepos;
 
-public record UserNotFoundException() {
+    record ErrorResponse(int status, String message) {
 }

@@ -1,4 +1,6 @@
 package com.marcinsz.githubrepos;
 
-public record GithubRepoModel(String repositoryName, String ownerLogin, String lastCommitSha) {
+import java.util.List;
+
+record GithubRepoResponse(String repositoryName, String ownerLogin, List<GithubBranchResponse> branches) {
 }

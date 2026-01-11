@@ -1,4 +1,7 @@
 package com.marcinsz.githubrepos;
 
-public record GithubProperties() {
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties(prefix = "github.api")
+    record GithubProperties(String baseUrl) {
 }

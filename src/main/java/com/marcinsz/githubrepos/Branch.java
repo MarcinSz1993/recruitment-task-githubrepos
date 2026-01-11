@@ -1,4 +1,4 @@
 package com.marcinsz.githubrepos;
 
-public record Branch() {
+    record Branch(String name,Commit commit) {
 }
